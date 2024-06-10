@@ -1,15 +1,22 @@
 h1{
     background-color: aqua;
+    border-radius: 10px;
+}
+iframe{
+    border-radius: 10px;
 }
 #music1
 {
     background-color: blueviolet;
+    border-radius: 15px;
 }
 #music2
 {
     background-color: rgb(58, 250, 0);
+    border-radius: 15px;
 }
 #music3
 {
     background-color: rgb(234, 255, 0);
+    border-radius: 15px;
 }

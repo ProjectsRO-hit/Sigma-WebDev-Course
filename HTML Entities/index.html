@@ -1,13 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Html Entities</title>
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    This is an offical webite for Rohit Singh 	&copy; 
+    This is an offical webite for Rohit Singh &copy;
     <p>This is an &lt;HTML&gt; code.</p>
-    <div><em>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusantium nostrum aspernatur tenetur dolor iure. Nobis natus eveniet ex excepturi voluptate error adipisci impedit nam ut! Veritatis nostrum odit voluptatum dolores!</em></div>
+    <div><em>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusantium nostrum aspernatur tenetur dolor
+            iure. Nobis natus eveniet ex excepturi voluptate error adipisci impedit nam ut! Veritatis nostrum odit
+            voluptatum dolores!</em></div>
+    <pre>This is a pre tag                          spaces are counted here</pre>
+
+    <h3>My C++ code</h3>
+    <pre>
+        <code>
+            #include <iostream>
+
+                using namespace std;
+                int main()
+                {
+                    int x_cor, y_cor;
+                    cout << "Please input X and Y cordinates of your location subsequently" << endl;
+                    cin >> x_cor >> y_cor;
+                
+                    bool result = ((x_cor < 10) && (x_cor > -10) && (y_cor < 5) && (y_cor > -5)) ? 0 : 1;
+                    if (result == 0)
+                    {
+                        cout << "You are surrounded! Dont move!" << endl;
+                    }
+                    else
+                    {
+                        cout << "You are out of reaach!" << endl;
+                    }
+                    return 0;
+                }
+        </code>
+    </pre>
 </body>
+
 </html>
