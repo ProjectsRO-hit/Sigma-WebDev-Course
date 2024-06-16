@@ -1,39 +1,60 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>CSS Selectors</title>
     <style>
-        /* Element Selector */
-        div {
-            /* background-color: red; */
-        }
+      /* Element Selector */
+      div {
+        /* background-color: red; */
+      }
 
-        /* Class selector */
-        .blue {
-            color: white;
-            background-color: blue;
-        }
+      /* Class selector */
+      .blue {
+        color: white;
+        background-color: blue;
+      }
 
-        /* Id Selector */
-        #green {
-            background-color: lightgreen;
-        }
+      /* Id Selector */
+      #green {
+        background-color: lightgreen;
+      }
 
-        /* Child Selector */
-        div>p {
-            background-color: lightblue;
-        }
+      /* Child Selector */
+      div > p {
+        background-color: lightblue;
+      }
+      /* Descendent Selector */
+      div p {
+        background-color: orangered;
+      }
+      /* Universal Selector */
+      * {
+        padding: 0;
+        margin: 0;
+      }
+      /* Pseudo Selector */
+      a:visited{
+        color:blueviolet
+      }
+      a:hover{
+        color: aqua;
+      }
+      a:link{
+        color:olive
+      }
     </style>
-</head>
+  </head>
 
-<body>
-    <div>I am a Div <p>Hello I'm a para</p>
+  <body>
+    <div>
+      I am a Div
+      <p>Hello I'm a para</p>
+      <article><p>I am Sexy and I know it!</p></article>
     </div>
     <div class="blue">I am Second Div</div>
     <div id="green">I am Third Div</div>
-</body>
-
+    <a href="https://www.google.com">Go to Google</a>
+  </body>
 </html>
