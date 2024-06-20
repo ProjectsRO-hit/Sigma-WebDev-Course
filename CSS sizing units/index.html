@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Sizing</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        html {
+            font-size: 12px;
+        }
+
+        .box {
+            border: 2px solid black;
+            /* width: 2048px; */
+            width: 80vw;
+            height: 10vh;
+            background: aquamarine;
+            box-sizing: border-box;
+            margin: auto;
+        }
+
+        .container {
+            border: 2px solid black;
+            /* width: 2048px; */
+            width: 80vw;
+            height: 80vh;
+            background: aquamarine;
+            box-sizing: border-box;
+            margin: 23px auto;
+            /* font-size: 18px; */
+        }
+
+        .container p {
+            font-size: 2rem;
+        }
+        .mycont{
+            box-sizing: border-box;
+            background-color: red;
+            color: yellow;
+            font-size: 2;
+            width: vmin;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="box">This is a box</div>
+    <div class="container">
+        <p>Hello ballz</p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus, ad ab, quasi dolor
+        vitae deserunt hic aspernatur laboriosam quod repellat nesciunt consectetur officiis minima, similique error
+        odio eligendi voluptates sint. Veniam similique placeat quia asperiores numquam voluptatum praesentium sunt!
+        Nihil assumenda veniam consequuntur fugiat illum facere nulla, aliquid explicabo perferendis? Laboriosam
+        voluptas laborum vero aliquam! Libero!
+    </div>
+    <div class="mycont">I am another container</div>
+</body>
+
+</html>
